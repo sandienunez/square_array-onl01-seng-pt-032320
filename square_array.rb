@@ -9,3 +9,4 @@ def square_array(array)
   end
   empty_array
 end
+
