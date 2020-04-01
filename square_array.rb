@@ -5,7 +5,10 @@ def square_array(array)
   array.each do |number|
     temp_number = number * number
     empty_array.push(temp_number) 
-    binding.pry
+    
   end
   empty_array
 end
+
+arr = [1, 2, 3, 4, 5]
+square_array(arr)
