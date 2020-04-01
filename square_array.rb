@@ -10,13 +10,5 @@ def square_array(array)
   empty_array
 end
 
-def square_array(array)
-  empty_array = []
-  
-  array.collect do |number|
-    temp_number = number * number
-    empty_array.push(temp_number) 
-    
-  end
-  empty_array
-end
+arr = [1, 2, 3, 4, 5]
+square_array(arr)
